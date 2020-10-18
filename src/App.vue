@@ -12,9 +12,15 @@
 <script>
 import { FadeTransition } from "vue2-transitions";
 
+
 export default {
   components: {
     FadeTransition
-  }
+  },
 };
 </script>
+<style lang="scss" scoped>
+html {
+  scroll-behavior: smooth;
+}
+</style>

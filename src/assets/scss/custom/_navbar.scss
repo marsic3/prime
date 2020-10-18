@@ -23,7 +23,7 @@
     letter-spacing: .05px;
 
     img {
-        height: 30px;
+        height: 60px;
     }
 }
 
@@ -163,9 +163,10 @@
     top: 0;
     width: 100%;
     z-index: 100;
-    background-color: transparent;
+    background-color: rgba(33, 37, 41, 0.4);
     border: 0;
     box-shadow: none;
+    height: 80px;
 
     .navbar-brand {
         color: rgba(255, 255, 255, 1);
@@ -184,7 +185,7 @@
     .navbar-transparent {
         .navbar-nav {
             .nav-link {
-                color: $navbar-dark-color;
+                color: white; // boja dugmica
 
                 @include hover-focus {
                     color: $navbar-dark-hover-color;
