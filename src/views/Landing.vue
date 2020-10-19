@@ -328,6 +328,7 @@ export default {
 
 video {
     height: 100vh;
+    width: 100%;
 }
 
 .pt-lg-0 {
